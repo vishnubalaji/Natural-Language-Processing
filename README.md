@@ -11,13 +11,14 @@
 - For Windows(cmd)<br>
 `\Scripts\activate.bat`
 
-4. Install the ipython kernel using pip.<br>
-`pip install ipykernel`
+4. Install the ipython kernel using pip and add the virtual environment to jupyter.<br>
+- `pip install ipykernel`
+- `python -m ipykernel install --user --name=<your-preferred-name>`
 
 5. Install all the required libraries.<br>
 `pip install -r requirements.txt`
 
-6. Start Jupyter-lab by typing `jupyter-lab` and choose the ipython kernel named "Natural-Language-Processing" from _Kernel -> Change Kernel_.
+6. Start Jupyter-lab by typing `jupyter-lab` and choose the ipython kernel represented by the name you gave while adding it to jupyter from _Kernel -> Change Kernel_.
 
 ## Libraries used :
 - NLTK
