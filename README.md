@@ -13,7 +13,7 @@
 
 4. Install the ipython kernel using pip and add the virtual environment to jupyter.<br>
 - `pip install ipykernel`
-- `python -m ipykernel install --user --name=myenv`
+- `python -m ipykernel install --user --name=<your-preferred-name>`
 
 5. Install all the required libraries.<br>
 `pip install -r requirements.txt`
