@@ -11,8 +11,9 @@
 - For Windows(cmd)<br>
 `\Scripts\activate.bat`
 
-4. Install the ipython kernel using pip.<br>
-`pip install ipykernel`
+4. Install the ipython kernel using pip and add the virtual environment to jupyter.<br>
+- `pip install ipykernel`
+- `python -m ipykernel install --user --name=myenv`
 
 5. Install all the required libraries.<br>
 `pip install -r requirements.txt`
