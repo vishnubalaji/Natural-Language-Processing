@@ -18,7 +18,7 @@
 5. Install all the required libraries.<br>
 `pip install -r requirements.txt`
 
-6. Start Jupyter-lab by typing `jupyter-lab` and choose the ipython kernel named "Natural-Language-Processing" from _Kernel -> Change Kernel_.
+6. Start Jupyter-lab by typing `jupyter-lab` and choose the ipython kernel represented by the name you gave while adding it to jupyter from _Kernel -> Change Kernel_.
 
 ## Libraries used :
 - NLTK
